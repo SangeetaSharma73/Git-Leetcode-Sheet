@@ -17,6 +17,7 @@
 # Input: prices = [7,6,4,3,1]
 # Output: 0
 # Explanation: In this case, no transactions are done and the max profit = 0.
+#T.c=O(n)
 prices=[7,6,4,3,1]
 mini=float('inf')
 profit=0

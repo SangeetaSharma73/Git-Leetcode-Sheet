@@ -14,13 +14,13 @@
 arr=[2,7,11,15]
 taget=9
 def fun(arr,target):
-    #using brute force
+    #using brute force-T.c=O(n^2)
     for i in range(len(arr)):
         for j in range(i+1,len(arr)):
             if arr[i]+arr[j]==target:
                 return [i,j]
 
-#using dictionary-
+#using dictionary-T.c=O(n) and S.c=O(n)
 nums=[5,4,8,2]
 target=6
 def fun(arr,target):
