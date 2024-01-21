@@ -8,7 +8,7 @@
 # After sorting, it becomes [0,1,9,16,100].
 
 #T.c=O(n)
-def sortedSquares(self, nums: List[int]) -> List[int]:
+def sortedSquares(nums):
         for i in range(len(nums)):
             nums[i]=nums[i]*nums[i]
         nums.sort()
